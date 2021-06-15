@@ -60,9 +60,15 @@ Install ROS Packages <br>
 
 Install ROS packages inside the ROS workspace <br>
 * git clone https://github.com/RobotWebTools/mjpeg_server.git <br> (Change CV_IMWRITE_JPEG_QUALITY to cv::IMWRITE_JPEG_QUALITY if get error while catkin_make)
-* git clone https://github.com/SachinVekariya/Autonomous_Bot.git
+* git clone https://github.com/SachinVekariya/Autonomous_Bot.git <br>
+Dont't forget to add "source ~/Your_WorkSpace_Name/devel/setup.bash" in ~/.bashrc
 
 ## SetUp - Web
 
-<a href="https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04" >Install</a> Nodejs (Version > 15.0.0)
+* <a href="https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04" >Install</a> Nodejs (Version > 15.0.0)
+* $ git clone https://github.com/SachinVekariya/Mars_Rover-WebInterface.git
+* $ cd Mars_Rover-WebInterface/WebGUI/
+* $ npm i
+* $ node app.js <br>
 
+Open your favourite broswer and search http://localhost:3000/ and Now your Web Interface is ready to control Bot.
