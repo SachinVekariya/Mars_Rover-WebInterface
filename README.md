@@ -46,3 +46,18 @@ To operate in Autonomous Mode, we need to provide information about Bot route li
 
 
 ## SetUp
+
+*Tested on Ubuntu 20.04 and Ros-Noetic.
+
+Install Ros version according to your Ubuntu Version.
+<br>
+<a href="http://wiki.ros.org/melodic/Installation/Ubuntu">Ros-Melodic</a> for Ubuntu 18.04 & <a href="http://wiki.ros.org/noetic/Installation/Ubuntu">Ros-Neotic</a> for Ubuntu 20.04
+<br>
+
+Install ROS Packages <br>
+* sudo apt-get install ros-noetic-rosbridge-server <br>
+* sudo apt-get install ros-noetic-rosbridge-suite <br>
+
+Install ROS packages inside the ROS workspace <br>
+* git clone https://github.com/RobotWebTools/mjpeg_server.git <br> (Change CV_IMWRITE_JPEG_QUALITY to cv::IMWRITE_JPEG_QUALITY if get error while catkin_make)
+* git clone https://github.com/SachinVekariya/Autonomous_Bot.git
