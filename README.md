@@ -45,7 +45,7 @@ Button/Keyboard Control is disabled on Autonomous Mode.
 To operate in Autonomous Mode, we need to provide information about Bot route like Number of Goal and Coordinates of them.Then, you can start Autonomous mode by pressing Start button with task Switch in Autonomous.
 
 
-## SetUp
+## SetUp - ROS 
 
 *Tested on Ubuntu 20.04 and Ros-Noetic.
 
