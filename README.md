@@ -51,7 +51,7 @@ To operate in Autonomous Mode, we need to provide information about Bot route li
 
 Install Ros version according to your Ubuntu Version.
 <br>
-<a href="http://wiki.ros.org/melodic/Installation/Ubuntu">Ros-Melodic</a> for Ubuntu 18.04 & <a href="http://wiki.ros.org/noetic/Installation/Ubuntu">Ros-Neotic</a> for Ubuntu 20.04
+<a href="http://wiki.ros.org/melodic/Installation/Ubuntu">Ros-Melodic</a> for Ubuntu 18.04 & <a href="http://wiki.ros.org/noetic/Installation/Ubuntu">Ros-Noetic</a> for Ubuntu 20.04
 <br>
 
 Install ROS Packages <br>
