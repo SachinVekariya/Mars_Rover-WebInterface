@@ -61,3 +61,8 @@ Install ROS Packages <br>
 Install ROS packages inside the ROS workspace <br>
 * git clone https://github.com/RobotWebTools/mjpeg_server.git <br> (Change CV_IMWRITE_JPEG_QUALITY to cv::IMWRITE_JPEG_QUALITY if get error while catkin_make)
 * git clone https://github.com/SachinVekariya/Autonomous_Bot.git
+
+## SetUp - Web
+
+<a href="https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04" >Install</a> Nodejs (Version > 15.0.0)
+
